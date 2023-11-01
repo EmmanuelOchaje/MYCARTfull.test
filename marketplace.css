@@ -1,0 +1,96 @@
+/* div{
+    border: 1px solid black;
+} 
+ */
+.momdivmk{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./images/guy\,\ emptycart.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    font-size: 2rem;
+}
+.merch{
+    margin-left: 0.5rem;
+    text-decoration: none;
+   background-color: orange;
+    font-weight: 400;
+    padding: 0.3rem;
+    color: rgb(60, 60, 131);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.merch0{
+    margin-right: 0.5rem;
+    text-decoration: none;
+   background-color: orange;
+    font-weight: 400;
+    padding: 0.3rem;
+    color: rgb(60, 60, 131);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.momdivmk0{
+    background-color: rgba(255, 166, 0, 0.5);
+    height: 50vh;
+}
+.hdmk{
+    padding-top: 7rem;
+    color: rgb(60, 60, 131);
+}.hdmk0{
+    color: rgb(60, 60, 131);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+hr{
+    width: 90%;
+    margin: 1%;
+    margin-left: 5%;
+}
+.divmk{
+    padding: 2rem;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+}
+.divmk1{
+    margin: 1rem;
+    width: 25rem;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 7px;
+}
+.mindivmk{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.mindivmk0{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem;
+    /* border: 1px solid rgb(116, 115, 115); */
+    color: orange;
+}
+.mkpa{
+    padding: 0.5rem;
+    color: rgb(116, 115, 115) ;
+}
+.imgmk{
+    width: 100%;
+    height: 15rem;
+    padding: 0.9rem;
+}
+.hdmk1{
+    color: rgb(60, 60, 131);
+    font-size: 1rem;
+}
+.pamk{
+    color: orange;
+}

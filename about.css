@@ -1,0 +1,162 @@
+/* div{
+    border: 1px solid black;
+} */
+/* First coverpage */
+.divab{
+background-image: url("./images/cartnav.png");
+background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: auto;
+    min-height: 90vh;
+}.divabovl{
+    width: auto;
+    min-height: 90vh;
+    background-color: rgba(255, 166, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hdab{
+    color: rgb(60, 60, 131);
+    border: 2px solid rgb(60, 60, 131);
+    border-radius: 5px;
+    font-weight:600;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: 1s;
+}
+.hdab:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 767px) {
+    
+}
+/* Second coverpage */
+.momab{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+
+}
+.div1ab, .div2ab{
+    width: 50%;
+    margin: 1rem;
+}
+.hdab0{
+    color: orange;;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.hdab1{
+    color: rgb(60, 60, 131);
+    font-size: 3rem;
+    padding: 2rem;
+}
+.imgab{
+    width: 35rem;
+    height: 30rem;
+    /* border: 1px solid black; */
+}
+.pa1ab, .pa2ab, .pa3ab{
+    color: rgb(60, 60, 131);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.pa1ab{
+    padding: 2rem;
+}.pa2ab{
+    padding: 1rem;
+    padding-left: 2rem;
+}.pa3ab{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Third covepage */
+.mom2ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.hdab2{
+    color: orange;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+.minab{
+    margin: 1rem;
+    padding: 1rem;
+    width: 40rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: orange;
+    color:rgb(60, 60, 131);
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.hideshow, .hideshow1, .hideshow2, .hideshow3{
+    background-color: rgb(196, 195, 195);
+    width:40rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: all 1s ease;
+} 
+.minab:active{
+    transform: scale(0.95);
+}
+.hide, .hide1, .hide2, .hide3{
+    display: none;
+}
+.minab1{
+    padding-left: rem;;
+}
+.lnkab1{
+    color:rgb(60, 60, 131);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 1s ease-in;
+    margin-left: 2rem;
+}
+.lnkab1:hover{
+    color: orange;
+}
+.inpt1ab{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid orange;
+    color: rgb(60, 60, 131);
+    border-radius: 7px;
+    width: 30rem;
+}
+.btn2{
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    background-color: orange;
+    color:rgb(60, 60, 131);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: all 1s ease;
+}
+.btn2:active{
+    transform: scale(0.8);
+}
+.lnk{
+    color: rgb(60, 60, 131);
+    text-decoration: none;
+}
