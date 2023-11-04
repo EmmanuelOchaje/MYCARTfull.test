@@ -37,27 +37,24 @@ nav-bar:hover{
     margin-top: 5px;
     font-size: 1rem;
 }
-li{
+.linav{
     margin: 2.5rem;
     font-size: 1.2rem;
 }
-li a{
+.linav a{
     text-decoration: none;
     color: rgb(60, 60, 131);
     font-weight: bold;
     transition:all 0.5s ease-in-out;
 }
-li a:hover{
+.linav a:hover{
     color: orange;
     transition: ease-in-out;
 }
 .active{
-  border-bottom: 1px solid rgb(60, 60, 131);
-  padding-bottom: 0.5rem;
+  color: rgb(255, 0, 0);
+  /* border-bottom: 1px solid rgb(60, 60, 131); */
 }
-/* div{
-    border: 1px solid black;
-} */
 .fa-beat{
     color: orange;
 }
@@ -70,7 +67,7 @@ li a:hover{
     .nav-bar{
         height: 4rem;
     }
-    li{
+    .linav{
         margin: 0.7rem;
         font-size: 0.7rem;
         margin: 0.7rem;
@@ -85,7 +82,7 @@ li a:hover{
         .nav-bar{
             height: 6rem;
         }
-        li{
+        .linav{
             margin: 0.9rem;
             font-size: 1rem;
         }
@@ -99,7 +96,7 @@ li a:hover{
         .nav-bar{
             height: 7rem;
         }
-        li{
+        .linav{
             margin: 1.3rem;
             font-size: 1.2rem;
         }
@@ -515,10 +512,11 @@ h4{
 .mom7{
     min-height: 65vh;
     display: flex;
+    justify-content: center;
     padding: 0.5rem;
 }
 footer{
-    background-color: rgb(245, 243, 243);
+    background-color: black;
 }
 .img4{
     width: 100%;
@@ -527,7 +525,7 @@ footer{
     padding: 1rem;
 }
 .mom7{
-     margin: 1.5rem;
+     margin: 0rem;
      padding-top: 2rem;
 }
 .div7{
@@ -541,7 +539,17 @@ footer{
     margin: 0.8rem;
 }
 .lifoot{
+    margin: 2rem;
     font-size: 0.7rem;
+}
+.lifoot a{
+    text-decoration: none;
+    color: white;
+    transition:all 0.5s ease-in-out;
+}
+.lifoot a:hover{
+    color: orange;
+    transition: ease-in-out;
 }
 h3{
     color: orange;
@@ -552,10 +560,17 @@ h3{
 ul{
     list-style: none;
 }
-
+.fa-brands{
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(60, 60, 131);
+}
+.div9{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 480px) and (max-width: 767px){
     .mom7{
-        margin: 1rem;
         padding-top:  2rem;
     }
     .img4{
@@ -574,10 +589,19 @@ ul{
     .lifoot{
         font-size: 0.6rem;
     }
+    .lifoot{
+        margin: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .fa-brands{
+        font-size: 2rem;
+        margin: 1rem;
+      /*   margin-bottom: 3rem; */
+        color: rgb(60, 60, 131);
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .mom7{
-        margin: 1rem;
         padding-top: 2rem;
     }
     .img4{
