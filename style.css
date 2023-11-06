@@ -39,7 +39,7 @@ nav-bar:hover{
 }
 .linav{
     margin: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .linav a{
     text-decoration: none;
@@ -69,7 +69,7 @@ nav-bar:hover{
     }
     .linav{
         margin: 0.7rem;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin: 0.7rem;
     }
 }
@@ -108,7 +108,7 @@ nav-bar:hover{
  }
 .div1{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     display: flex; 
     justify-content: center;
     background-color: orange;
@@ -215,10 +215,11 @@ nav-bar:hover{
     .div3{
         max-height: 35%;
         padding: 0;
+        width: 50%;
     }
     .img2{
-        width: 19rem;
-        /* border: 1px solid black; */
+        /* width: 10rem;
+        border: 1px solid black; */
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -242,6 +243,7 @@ nav-bar:hover{
     }
     .div3{
         max-height: 35%;
+        width: 50%;
     }
     .img2{
         width: 25rem;
