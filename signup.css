@@ -98,7 +98,7 @@ h1, h2{
 }
 .sign-inbtn:hover{
     background-color: orange;
-    color:rgb(0, 0, 255);
+    color:rgb(60, 60, 131);
     border: 3px solid rgb(60, 60, 131);
     transition: 0.5s;
 }
