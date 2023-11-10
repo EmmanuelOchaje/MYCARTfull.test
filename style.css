@@ -11,11 +11,10 @@ body{
 nav{
     background: rgb(252, 223, 180);
     width: 100%;
-    height: 6rem;
+    height: 6.5rem;
     justify-content: space-between;
 }
 .img1{
-    margin-left: 1rem;
     width: 8rem;
     margin-left: 10%;
     padding: .5rem;
@@ -54,6 +53,9 @@ nav ul li{
     display: none ;
 }
 @media screen and (max-width: 730px) {
+    .img1{
+        margin-left: 5%;
+    }
     .check{
         display: block;
     }
@@ -62,10 +64,11 @@ nav ul li{
         width: 100%;
         height: 100vh;
         background: orange;
-        top: 6rem;
+        top: 6.5rem;
         left: -100%;
         text-align: center;
         transition: all 0.5s;
+        z-index: 2;
     }
     nav ul li{
         display: block;
@@ -73,15 +76,60 @@ nav ul li{
     #check:checked ~ ul{
         left: 0;
         display: block;
-        z-index: 4;
+        z-index: 2;
     }
     #check:checked ~ .div1{
 
     }
 }
-.mom{
-    position: relative;
- }
+@media screen and (min-width: 731px) and (max-width:1024px) {
+    .img1{
+        margin-left: 3%;
+    }
+    nav ul li{
+        margin: 0.8rem;
+        line-height: 50px;
+       
+    }
+    nav ul{
+         margin-right: 0;
+         padding-top: 0.5rem;
+    }
+}
+@media screen and (min-width: 751px) and (max-width:800px) {
+    nav ul{
+        margin-right: 0.6rem;
+        padding-top: 0.5rem;
+   }
+}
+@media screen and (min-width: 830px) and (max-width:899px) {
+    .img1{
+        margin-left: 7%;
+    }
+    nav ul li{
+        margin: 0.8rem;
+        line-height: 50px;
+       
+    }
+    nav ul{
+         margin-right: 2rem;
+         padding-top: 0.5rem;
+    }
+}
+@media screen and (min-width: 900px) and (max-width:1200px) {
+    .img1{
+        margin-left: 10%;
+    }
+    nav ul li{
+        margin: 0.8rem;
+        line-height: 50px;
+       
+    }
+    nav ul{
+         margin-right: 4rem;
+         padding-top: 0.5rem;
+    }
+}
  .mom{
     position: relative;
  }
@@ -93,17 +141,14 @@ nav ul li{
     background-color: orange;
     background-size: cover;
     position: relative;  
-    /* border: 1px solid black; */ 
 }
 .div2{
-    /* border: 1px solid black; */
     max-height: 60%;
     margin-top: 5%;
     padding: 1rem;
     padding-top: 5%;
 }
 .div3{
-  /*   border: 1px solid black; */
     max-height: 70%;
     margin-top: 5%;
     padding: 1rem;
@@ -120,7 +165,6 @@ nav ul li{
 }
 .img2{
     animation-delay: 2s; 
-/*     border: 1px solid black; */
 }
 .btn1{
     font-size: 1.5rem;
@@ -133,17 +177,15 @@ nav ul li{
     color: orange;
     transition: all 1s ease;
 }
-/* .btn1:hover{
-    background-color: orange;
-    color:rgb(60, 60, 131);
-    border: 3px solid rgb(60, 60, 131);
-} */
 .btn1:active{
     transform: scale(0.8);
 }
 .lnk{
     color: orange;
     text-decoration: none;
+}
+.img2{
+    width: 100%;
 }
 .anim{
     opacity: 0;
@@ -168,6 +210,22 @@ nav ul li{
 }
 .btn1{
     animation-delay: 2.5s;
+}
+@media screen and (min-width: 360px) and (max-width: 479px) {
+    .div1{
+        height: 35vh;
+    }
+    .hd2{
+        font-size: 1.5rem;
+    }
+    .pa2{
+        font-size: 1rem;
+    }
+    .btn1{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .div1{
@@ -194,10 +252,6 @@ nav ul li{
         max-height: 35%;
         padding: 0;
         width: 50%;
-    }
-    .img2{
-        /* width: 10rem;
-        border: 1px solid black; */
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -255,9 +309,6 @@ nav ul li{
     display: flex;
     margin-top: 3rem;
 }
-.img2{
-    width: 100%;
-}
 .div5{
     margin-top: 5rem;
     min-height: 40vh;
@@ -306,6 +357,33 @@ nav ul li{
     border: 1px solid black
 } */
 
+@media screen and (min-width: 360px) and (max-width: 479px) {
+    .img3{
+        width: 10rem;
+    }
+    .pa3{
+        font-size: 1rem;
+    }
+    .spn1{
+        font-size: 1.5rem;
+    }
+    .div5{
+        margin-top: 1rem;
+        min-height: 10vh;
+    }
+    .min{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: 1px solid black;
+    }
+    .hdom{
+        font-size: 1rem;
+    }
+    .paom{
+        font-size: 0.8rem;
+    }
+    
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .mom2{
         margin-top: 1rem;
