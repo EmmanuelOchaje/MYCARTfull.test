@@ -645,9 +645,6 @@ ul{
         flex-wrap: wrap;
     }
 }
-div{
-    border: 1px solid black;
-}
 @media screen and (min-width: 480px) and (max-width: 767px){
     .mom7{
         padding-top:  2rem;
