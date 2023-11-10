@@ -89,6 +89,9 @@ nav ul li{
     .img1{
         width: 6rem;
     }
+    nav ul{
+        top: 7.5rem;
+    }
 }
 @media screen and (min-width: 731px) and (max-width:1024px) {
     .img1{
