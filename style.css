@@ -58,7 +58,6 @@ nav ul li{
     }
     .check{
         display: block;
-        margin-left: 0;
     }
     nav ul{
         position: fixed;
@@ -81,6 +80,14 @@ nav ul li{
     }
     #check:checked ~ .div1{
 
+    }
+}
+@media screen and (min-width: 390px) and (max-width: 479px) {
+    nav{
+        height: 5rem;
+    }
+    .img1{
+        width: 6rem;
     }
 }
 @media screen and (min-width: 731px) and (max-width:1024px) {
