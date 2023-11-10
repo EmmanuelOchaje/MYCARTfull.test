@@ -324,7 +324,6 @@ nav ul li{
     font-weight: 600;
     margin: 0.5rem;
 }
-
 .div6{
     display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -368,7 +367,7 @@ nav ul li{
         font-size: 1.5rem;
     }
     .div5{
-        margin-top: 1rem;
+        margin-top: 0rem;
         min-height: 10vh;
     }
     .min{
@@ -583,10 +582,7 @@ footer{
 }
 .mom7{
      margin: 0rem;
-     padding-top: 2rem;
-}
-.div7{
-   /*  border: 1px solid black; */
+    padding-top: 2rem;
 }
 .div8{
     display: flex;
@@ -626,25 +622,45 @@ ul{
     display: flex;
     justify-content: center;
 }
+@media screen and (min-width: 390px) and (max-width: 479px) {
+    .mom7{
+        padding-top: 1rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+    .img4{
+        display: none;
+    }
+    .lifoot{
+        font-size: 0.5rem;
+        margin: 1rem;
+        margin-left: 2rem;
+    }
+    .fa-brands{
+        font-size: 1rem;
+    }
+    .div8{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}
+div{
+    border: 1px solid black;
+}
 @media screen and (min-width: 480px) and (max-width: 767px){
     .mom7{
         padding-top:  2rem;
     }
     .img4{
-        width: 9rem;
-        height: 7rem;
-        margin: 0.5rem;
         display: none;
     }
     .div8{
         flex-wrap: wrap;
     }
     h3{
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-left: 0.5rem;
-    }
-    .lifoot{
-        font-size: 0.6rem;
     }
     .lifoot{
         margin: 0.8rem;
